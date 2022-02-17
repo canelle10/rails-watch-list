@@ -1,1 +1,7 @@
 // Specific CSS for your home-page
+$color_fav: rgb(0, 128, 133);
+$spacer: 8px;
+
+body, h1 {
+  color: $color_fav; // Using this variable
+}

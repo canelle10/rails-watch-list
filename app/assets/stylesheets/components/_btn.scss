@@ -1,0 +1,9 @@
+$color_fav: rgb(0, 128, 133);
+
+.btn {
+  padding: $spacer ($spacer * 3);
+  background-color: $color_fav;
+  display: flex;
+  align-items: center;
+  margin: 2%;
+}
