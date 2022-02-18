@@ -21,3 +21,9 @@ movies['results'].each do |movie|
     rating: movie['vote_average']
   )
 end
+
+List.create(name: "Favoris", movie_id: "1", bookmark_id: "2")
+List.create(name: "Recommendations", movie_id: "1", bookmark_id: "2")
+
+Bookmark.create(comment: "Ok", movie_id: "1", list_id: "2")
+Bookmark.create(comment: "OK", movie_id: "4", list_id: "1")
